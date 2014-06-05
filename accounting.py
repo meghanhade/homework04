@@ -13,7 +13,7 @@ def main():
         difference = expected - paid
         
         if expected != paid:
-            print name, "paid $%r, expected $%r. There was a difference of $%r." % (paid, expected, difference)
+            print name, "paid $%r, expected $%r. A difference of $%r." % (paid, expected, difference)
 
 
 
