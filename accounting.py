@@ -10,7 +10,7 @@ def main():
         expected = int(expected_raw) * melon_cost
         paid_clean = float(paid_raw)
         paid = int(paid_clean)
-        difference = paid - expected
+        difference = expected - paid
         
         if expected != paid:
             print name, "paid $%r, expected $%r. There was a difference of $%r." % (paid, expected, difference)
